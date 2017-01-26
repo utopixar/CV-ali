@@ -56,6 +56,7 @@
 		}
 		h1{
 		font-weight:bold;
+		text-align:center;
 		}
 		#div5{
 		background-color:#ecf0dd;
@@ -63,12 +64,13 @@
 		ul li{
 		list-style-type:none;
 		}
-		#div6{
-		background-color:#ecf0dd;
+		p{
+			text-align:center;
+		}
 		}
 		#div7{
-		background-color:#222;
-		color:gray;
+		background-color:black;
+		color:#fff;
 		}
 		#div8{
 		text-align:center;
@@ -147,3 +149,52 @@
 		ul li{
 			text-align:center;
 		}
+		.image:hover .caption{opacity:0.7;}
+		#fig1 img{
+			opacity:1;
+		}
+		#fig1 img:hover #e1{
+			opacity:0.6;
+		}
+		#fig2 img:hover{
+			background-color:RGBa(52, 52, 52, 1);
+			color:#d35400;
+		}
+		#fig3 img:hover{
+			background-color:#2980b9;
+		}
+		#fig4 img:hover{
+			background-color:red;
+		}
+		#fig5 img:hover{
+			background-color:red;
+		}
+		#fig6 img:hover{
+			background-color:red;
+		}
+		#mycarousel{
+		background-color:black;
+		height:200px;
+		width:100%;
+		}
+		#mycarousel h5{
+			color:#fff;
+			font-weight:bold;
+			text-align:center;
+		}
+		.image{position:relative;width:100%;height:310px;}
+		
+		.image .caption1{opacity:0;position:absolute;height:310px;width:100%;bottom:0px;left:0px;right:0px;color:#fff;background-color:#3498db;}
+		.image .caption2{opacity:0;position:absolute;height:310px;width:100%;bottom:0px;left:0px;right:0px;color:#fff;background-color:#e67e22;}
+		.image .caption3{opacity:0;position:absolute;height:310px;width:100%;bottom:0px;left:0px;right:0px;color:#fff;background-color:#3498db;}
+		.image .caption4{opacity:0;position:absolute;height:310px;width:100%;bottom:0px;left:0px;right:0px;color:#fff;background-color:#9b59b6;}
+		.image .caption5{opacity:0;position:absolute;height:310px;width:100%;bottom:0px;left:0px;right:0px;color:#fff;background-color:#1abc9c;}
+		.image .caption6{opacity:0;position:absolute;height:310px;width:100%;bottom:0px;left:0px;right:0px;color:#fff;background-color:#9b59b6;}
+		
+		.image:hover .caption1{opacity:0.7;}
+		.image:hover .caption2{opacity:0.7;}
+		.image:hover .caption3{opacity:0.7;}
+		.image:hover .caption4{opacity:0.7;}
+		.image:hover .caption5{opacity:0.7;}
+		.image:hover .caption6{opacity:0.7;}
+		
